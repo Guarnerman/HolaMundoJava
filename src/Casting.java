@@ -9,6 +9,16 @@ public class Casting {
         int a = 30;
         int b = 12;
 
-        System.out.println(a/b);
+        System.out.println((double) a/b);
+
+        double c = a/b;
+        System.out.println(c);
+
+        char n = '1';
+        int nI = n;
+        System.out.println(nI);
+
+        short nS = (short) n;
+        System.out.println(nS);
     }
 }
