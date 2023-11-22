@@ -7,6 +7,14 @@ public class IfStatement {
             //Send file
             fileSent++;
             System.out.println("Archivo enviado");
+            int i = 0;
+            i++;
+        } else {
+            fileSent--;
+            System.out.println("Por favor, enciende tu Bluethooth para inciar transferencia");
         }
+
+        System.out.println(isBluetoothEnabled);
+        System.out.println(fileSent);
     }
 }
