@@ -9,6 +9,7 @@ public class WhileLoop {
             printSOS();
             i++;
         }
+
     }
 
     public static void  printSOS(){
@@ -16,6 +17,7 @@ public class WhileLoop {
     }
 
     public static boolean turnOnOffLight(){
+        int a = 0;
         isTurnOnLight = !isTurnOnLight;
         return  isTurnOnLight;
     }
